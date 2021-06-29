@@ -1,0 +1,3 @@
+
+Name of database : db_gaprinting
+import the db_gaprinting.sql to the database
