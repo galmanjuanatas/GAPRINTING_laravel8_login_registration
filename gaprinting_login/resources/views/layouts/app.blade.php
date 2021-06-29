@@ -17,6 +17,11 @@
 
         <!-- Scripts -->
         <script src="{{ mix('js/app.js') }}" defer></script>
+
+        <style>
+h1 {text-align: center;}
+
+</style>
     </head>
     <body class="font-sans antialiased">
         <x-jet-banner />
@@ -35,7 +40,9 @@
 
             <!-- Page Content -->
             <main>
-                {{ $slot }}
+                <div>
+                <h1>You are successfully Log In</h1>
+                </div>
             </main>
         </div>
 
